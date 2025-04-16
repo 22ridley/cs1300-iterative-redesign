@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
-    <title>Iterative Redesign & Evaluation Case Study</title>
+    <title>Iterative Design & Evaluation Case Study</title>
   </head>
   <body>
     <div class="all">
@@ -15,7 +15,7 @@
         <div><a class="jump" href="#lessons">Lessons Learned</a></div>
       </div>
       <div id="intro" class="intro">
-        <h1>Iterative Redesign & Evaluation</h1>
+        <h1>Iterative Design & Evaluation</h1>
         <p class="name">
           Ethan Wei ● Sarah Ridley ● Priyam Parekh ● Zeeshan Bhalwani
         </p>
@@ -48,197 +48,236 @@
           <h3>Approach</h3>
           <p>
             Throughout the design process, we avoided looking at any of Curo's
-            real interfaces, so that our approach to solving their problem would
-            be completely independent from theirs. After we understood their
-            mission, we began by drawing sketches depicting our initial ideas of
-            desktop and mobile interfaces, and then turned these sketches into
-            lo-fi wireframes. Next, we did a critique of our wireframes and
-            created a hi-fi prototype in Figma, which we tested with users. Each
-            of these steps will be discussed in the below sections.
+            real interfaces, so that our approach would be completely
+            independent from theirs. We began by drawing sketches depicting our
+            initial ideas of desktop and mobile interfaces, and then turned
+            these sketches into lo-fi wireframes. Next, critiqued our wireframes
+            and created a hi-fi prototype in Figma, which we tested with users.
+            Each of these steps will be discussed in the below sections.
           </p>
         </div>
       </div>
       <div id="ideation" class="ideation">
         <h2>Initial Sketches and Ideation</h2>
         <div class="txt-bx">
-          <h3>Sketch Behind The Scenes</h3>
+          <h3>Sketches Approach</h3>
           <p>
-            • To design Curo's platform from the ground up, each team member
-            independently sketched out their vision for the UI. We each created
-            three sketches, exploring different screen views and formats
-            (desktop vs. mobile).
-          </p>
-          <p>
-            • By working independently, we generated a diverse set of design
-            ideas, each offering a unique approach to presenting Curo's core
-            functionality. Furthermore, we restrained from looking at current
-            Curo designs to form original sketches and designs. This ultimately
-            enabled us to add our own perspective and personalization to the
-            sketches/lo-fi prototypes.
-          </p>
-          <p>
-            • These sketches allowed us to consider a range of user interactions
-            and layouts before converging on shared design elements.
-          </p>
-          <p>
-            • This initial ideation phase laid the foundation for our lo-fi
-            wireframes and informed key interface decisions moving forward.
+            As described, our very first step was sketching. To design Curo's
+            platform from the ground up, each team member independently sketched
+            out their vision for the UI. We each created three sketches,
+            exploring different screen views and formats (desktop vs. mobile).
           </p>
 
-          <h3>Sarah's sketches</h3>
-          <div style="text-align: center">
-            <img
-              src="public/Sarah-Screen1-Signup.png"
-              alt="Sarah's Signup Sketch"
+          <ul>
+            <li>
+              By working independently, we generated a diverse set of design
+              ideas, each offering a unique approach to presenting Curo's core
+              functionality.
+            </li>
+            <li>
+              We also avoided looking at current Curo designs to form original
+              sketches and designs. This ultimately enabled us to add our own
+              perspective and personalization to the sketches/lo-fi prototypes.
+            </li>
+            <li>
+              These sketches allowed us to consider a range of user interactions
+              and layouts before converging on shared design elements. This
+              initial ideation phase laid the foundation for our lo-fi
+              wireframes and informed key interface decisions moving forward.
+            </li>
+          </ul>
+          <br />
+          <div class="sub-txt-bx">
+            <h3>Sarah's Sketches</h3>
+            <div
               style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+                justify-items: center;
+                padding: 20px;
+                padding-top: 0px;
               "
-            />
-            <img
-              src="public/Sarah-Screen2-FleetManager.png"
-              alt="Sarah's Fleet Manager View Sketch"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
-            <img
-              src="public/Sarah-Screen3-ChargerOwner1.png"
-              alt="Sarah's Charger Owner View 1 Sketch"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
-            <img
-              src="public/Sarah-Screen4-ChargerOwner2.png"
-              alt="Sarah's Charger Owner View 2 Sketch"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
+            >
+              <img
+                src="public/Sarah-Screen1-Signup.png"
+                alt="Sarah's Signup Sketch"
+                style="
+                  max-width: 100%;
+                  width: 100%;
+                  max-width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+              <img
+                src="public/Sarah-Screen2-FleetManager.png"
+                alt="Sarah's Fleet Manager View Sketch"
+                style="
+                  max-width: 100%;
+                  width: 100%;
+                  max-width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+              <img
+                src="public/Sarah-Screen3-ChargerOwner1.png"
+                alt="Sarah's Charger Owner View 1 Sketch"
+                style="
+                  max-width: 100%;
+                  width: 100%;
+                  max-width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+              <img
+                src="public/Sarah-Screen4-ChargerOwner2.png"
+                alt="Sarah's Charger Owner View 2 Sketch"
+                style="
+                  max-width: 100%;
+                  width: 100%;
+                  max-width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+            </div>
+            <p>
+              When designing my 4 screens, my main goal was to display the core
+              of the initial flow for desktop users. The first screen allows
+              users to sign up as either of the two user groups, and then there
+              is one screen for the fleet managers and two screens for the depot
+              owners (which I initially called charger owners). The screen for
+              the fleet managers displays the page where they can manage the
+              chargers they have leased, whereas the depot owners' pages allow
+              them to manage their chargers and view their leasers.
+            </p>
           </div>
-          <p>
-            When designing my 4 screens, my main goal was to display the core of
-            the initial flow for desktop users. The first screen allows users to
-            sign up as either of the two user groups, and then there is one
-            screen for the fleet managers and two screens for the depot owners
-            (which I initially called charger owners). The screen for the fleet
-            managers displays the page where they can manage the chargers they
-            have leased, whereas the depot owners' pages allow them to manage
-            their chargers and view their leasers.
-          </p>
+          <div class="sub-txt-bx">
+            <h3>Ethan's Sketches</h3>
+            <div style="text-align: center">
+              <img
+                src="public/ethan-sketches.jpeg"
+                alt="Ethan's Design Sketches"
+                style="
+                  max-width: 75%;
+                  width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+            </div>
+            <p>
+              I wanted to sketch designs that were mostly centered around the
+              driver and fleet manager. Thus, I sketched three screens that were
+              reminiscent of mobile maps apps like Google Maps but with
+              additional features like pinned locations for all the charging
+              stations. I also added more tabs like a vehicle tracking page and
+              a charging details page so that fleet managers could easily gather
+              insights on all of their vehicles.
+            </p>
+          </div>
+          <div class="sub-txt-bx">
+            <h3>Zeeshan's Sketches</h3>
+            <div style="text-align: center">
+              <img
+                src="public/zeeshan-sketches.jpeg"
+                alt="Zeeshan's Design Sketches"
+                style="
+                  max-width: 75%;
+                  width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+            </div>
+            <p>
+              When designing the screens, my main goal was to display the flow
+              for mobile uses. The first screen is a simple way for users to
+              sign into the app. The second screen allows the fleet manager to
+              easily search for different chargers compatible with their fleet.
+              The last screen allows a depot owner to see all of their chargers
+              and decommission them from the platform if there may be an issue.
+            </p>
+          </div>
+          <div class="sub-txt-bx">
+            <h3>Priyam's Sketches</h3>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+                justify-items: center;
+                padding: 20px;
+                padding-top: 0;
+              "
+            >
+              <!-- First row -->
+              <img
+                src="public/add-ev-charger-priyam.jpeg"
+                alt="Priyam's Add EV Charger Sketch"
+                style="
+                  max-width: 100%;
+                  width: 98%;
+                  max-width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+              <img
+                src="public/map-view-priyam.jpeg"
+                alt="Priyam's Map View Sketch"
+                style="
+                  max-width: 100%;
+                  width: 100%;
+                  max-width: 600px;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
 
-          <h3>Ethan's sketches</h3>
-          <div style="text-align: center">
-            <img
-              src="public/ethan-sketches.jpeg"
-              alt="Ethan's Design Sketches"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
+              <!-- Second row: centered image spanning two columns -->
+              <img
+                src="public/card-view-priyam.jpeg"
+                alt="Priyam's Card View Sketch"
+                style="
+                  grid-column: 1 / -1;
+                  max-width: 100%;
+                  width: 50%;
+                  max-width: 600px;
+                  justify-self: center;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+              />
+            </div>
+            <p>
+              My first screen is a map view that helps fleet managers search for
+              and locate available chargers. It features a central map with a
+              scrollable overlay of charger listings on the left, a search bar
+              at the top, and a collapsible vertical navigation bar on the far
+              left. The second screen is a standard card view that removes the
+              map, allowing fleet managers to quickly scroll through all
+              chargers available to lease. The third screen is targeted toward
+              depot owners and showcases the signup process to add an EV charger
+              to the platform. This includes fields for contact information,
+              charger type, quantity, and location details.
+            </p>
           </div>
-          <p>
-            I wanted to sketch designs that were mostly centered around the
-            driver and fleet manager. Thus, I sketched three screens that were
-            reminiscent of mobile maps apps like Google Maps but with additional
-            features like pinned locations for all the charging stations. I also
-            added more tabs like a vehicle tracking page and a charging details
-            page so that fleet managers could easily gather insights on all of
-            their vehicles.
-          </p>
-
-          <h3>Zeeshan's sketches</h3>
-          <div style="text-align: center">
-            <img
-              src="public/zeeshan-sketches.jpeg"
-              alt="Zeeshan's Design Sketches"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
-          </div>
-          <p>
-            When designing the screens, my main goal was to display the flow for
-            mobile uses. The first screen is a simple way for users to sign into
-            the app. The second screen allows the fleet manager to easily search
-            for different chargers compatible with their fleet. The last screen
-            allows a depot owner to see all of their chargers and decommission
-            them from the platform if there may be an issue.
-          </p>
-
-          <h3>Priyam's sketches</h3>
-          <div style="text-align: center">
-            <img
-              src="public/add-ev-charger-priyam.jpeg"
-              alt="Priyam's Add EV Charger Sketch"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
-            <img
-              src="public/map-view-priyam.jpeg"
-              alt="Priyam's Map View Sketch"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
-            <img
-              src="public/card-view-priyam.jpeg"
-              alt="Priyam's Card View Sketch"
-              style="
-                max-width: 75%;
-                width: 600px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              "
-            />
-          </div>
-          <p>
-            When designing my three screens, I focused on both fleet managers
-            and depot owners, since Curo's platform fundamentally serves as a
-            marketplace between these two user groups. The first screen is a map
-            view that helps fleet managers search for and locate available
-            chargers. It features a central map with a scrollable overlay of
-            charger listings on the left, a search bar at the top, and a
-            collapsible vertical navigation bar on the far left. The second
-            screen is a standard card view that removes the map but retains all
-            other functionality, allowing fleet managers to quickly scroll
-            through all chargers available to lease. The third screen is
-            targeted toward depot owners and showcases the signup process to add
-            an EV charger to the platform. This includes fields for contact
-            information, charger type, quantity, and location details.
-          </p>
         </div>
       </div>
 
       <div id="lofi" class="lofi">
         <h2>Lo-Fi Prototypes and Wireframes</h2>
         <div class="txt-bx">
-          <h3>Wireframes Behind The Scenes</h3>
+          <h3>Wireframes Approach</h3>
           <p>
-            • To design a lo-fi prototype for Curo's platform, each team member
-            independently created a wireframe for the pages we believed to be
-            necessary for the platform. We all focused on a page that would be
-            an important step in the user's journey as a Fleet Manager and EV
-            Charger Depot Owner.
+            After creating our individual sketches, our next step was to combine
+            our ideas into one cohesive wireframe lo-fi prototype with several
+            key pages for the Curo platform.
           </p>
-
-          <div class="txt-bx">
+          <p>
+            To design this lo-fi prototype, we met to discuss our vision for the
+            wireframes, and then split respoonsibility for the pages we believed
+            to be necessary for the platform. We all focused on a wireframe page
+            that would be an important step in the user's journey as a Fleet
+            Manager and EV Charger Depot Owner.
+          </p>
+          <br />
+          <div class="sub-txt-bx">
             <h3>Screen 1: Sign-In/Sign-Up Page</h3>
             <div style="text-align: center">
               <img
@@ -262,8 +301,7 @@
               screen that users would see when they open the app.
             </p>
           </div>
-
-          <div class="txt-bx">
+          <div class="sub-txt-bx">
             <h3>Screen 2: Fleet View Page for Fleet Managers</h3>
             <div style="text-align: center">
               <img
@@ -290,7 +328,7 @@
             </p>
           </div>
 
-          <div class="txt-bx">
+          <div class="sub-txt-bx">
             <h3>Screen 3: Charging Options Page for Fleet Managers</h3>
             <div style="text-align: center">
               <img
@@ -318,7 +356,7 @@
             </p>
           </div>
 
-          <div class="txt-bx">
+          <div class="sub-txt-bx">
             <h3>Screen 4: Dashboard Page for Fleet Managers</h3>
             <div style="text-align: center">
               <img
@@ -351,78 +389,80 @@
               information they need.
             </p>
           </div>
-
-          <div>
-            <h3>Our Feedback to Each Other</h3>
-          </div>
+          <br />
+          <h3>Feedback to Each Other</h3>
           <div>
             <p>
-              • Adding a robust messaging functionality would greatly improve
-              communication between fleet managers and depot owners. While phone
-              contact was appreciated, in-app messaging needs to be more visible
-              and intuitive to support real-time coordination and
-              trust-building.
+              As we worked, we iterated on our wireframes based on feedback we
+              gave each other:
             </p>
-            <br />
-            <p>
-              • Making the sidebar collapsible could enhance usability by giving
-              users more space to view critical information—especially helpful
-              when managing multiple reservation requests or comparing depot
-              data. This small change could improve overall clarity and reduce
-              the need for excessive scrolling.
-            </p>
-            <br />
-            <p>
-              • For the hi-fi prototype, we suggest introducing mirrored views
-              for depot owners that align with what fleet managers currently see
-              in Screens 2 and 3. This would support consistency across roles,
-              help users quickly understand the platform, and reduce the
-              learning curve for first-time users.
-            </p>
-            <br />
-            <p>
-              • As we continue refining the user experience, it's important to
-              surface key decision-making data—such as charging slot
-              availability and total reserved slots—early in the user flow.
-              Doing so empowers users to act with confidence and minimizes
-              hesitation during critical steps like accepting or rejecting a
-              request.
-            </p>
+            <ul>
+              <li>
+                Adding a robust messaging functionality would greatly improve
+                communication between fleet managers and depot owners. While
+                phone contact was appreciated, in-app messaging needs to be more
+                visible and intuitive to support real-time coordination and
+                trust-building.
+              </li>
+              <li>
+                Making the sidebar collapsible could enhance usability by giving
+                users more space to view critical information—especially helpful
+                when managing multiple reservation requests or comparing depot
+                data. This small change could improve overall clarity and reduce
+                the need for excessive scrolling.
+              </li>
+              <li>
+                For the hi-fi prototype, we suggest introducing mirrored views
+                for depot owners that align with what fleet managers currently
+                see in Screens 2 and 3. This would support consistency across
+                roles, help users quickly understand the platform, and reduce
+                the learning curve for first-time users.
+              </li>
+              <li>
+                As we continue refining the user experience, it's important to
+                surface key decision-making data—such as charging slot
+                availability and total reserved slots—early in the user flow.
+                Doing so empowers users to act with confidence and minimizes
+                hesitation during critical steps like accepting or rejecting a
+                request.
+              </li>
+            </ul>
           </div>
 
           <br />
-          <div>
-            <h3>Feedback From TA</h3>
-          </div>
+          <h3>Feedback From Critique</h3>
           <p>
-            • Maintain consistent design patterns across all screens to improve
-            user familiarity.
+            Then, we met with interaction designer Audrey Chou seeking feedback
+            on our wireframes during a critique. Audrey gave us a variety of
+            feedback on our lo-fi wireframes that informed our designs moving
+            forward:
           </p>
+          <ul>
+            <li>
+              Maintain consistent design patterns across all screens to improve
+              user familiarity.
+            </li>
+            <li>
+              Incorporate filtering capabilities into the search experience for
+              both fleet managers and depot owners would significantly enhance
+              usability. This would allow for faster decision-making and makes
+              the interface feel more responsive to user intent.
+            </li>
+            <li>
+              Consider reorganizing the dashboard layout into a more compact,
+              evenly spaced grid. Extra whitespace can give the impression of an
+              incomplete design.
+            </li>
+            <li>
+              Adding short, contextual descriptions to wireframes would clarify
+              the purpose of each section and guide both users and stakeholders
+              through the interface. It ensures the intent behind each component
+              is clearly communicated.
+            </li>
+          </ul>
           <br />
-          <p>
-            • Incorporating filtering capabilities into the search experience
-            for both fleet managers and depot owners would significantly enhance
-            usability. Allows for faster decision-making and makes the interface
-            feel more responsive to user intent.
-          </p>
-          <br />
-          <p>
-            • Consider reorganizing the dashboard layout into a more compact,
-            evenly spaced grid. Extra whitespace can give the impression of an
-            incomplete design.
-          </p>
-          <br />
-          <p>
-            • Adding short, contextual descriptions to wireframes would clarify
-            the purpose of each section and guide both users and stakeholders
-            through the interface. It ensures the intent behind each component
-            is clearly communicated.
-          </p>
-
-          <br />
-
           <h3>
-            All of the above feedback was implemented. Please see the Hi-Fi
+            All of the above feedback was implemented. Please see the hi-fi
             prototype below for more info!
           </h3>
         </div>
@@ -444,31 +484,54 @@
           </div>
 
           <p>
-            In our hi-fi prototype, we focused on building a unified brand
-            identity for Curo while ensuring adherence to best practices in
-            UI/UX design.
+            After iterating on and improving our lo-fi wireframes, our next step
+            was to add interactability and detail to our prototypes with a hi-fi
+            prototype in Figma. In the hi-fi
+            <a
+              href="https://www.figma.com/design/CIIizX9Wve7DCsOqA9qCHL/CS1300--Curo-Design?node-id=0-1&t=5fYgFbo7XR61uVeT-1"
+              target="_blank"
+              class="link"
+              >design</a
+            >
+            and
+            <a
+              href="https://www.figma.com/proto/CIIizX9Wve7DCsOqA9qCHL/CS1300--Curo-Design?node-id=0-1&t=5fYgFbo7XR61uVeT-1"
+              target="_blank"
+              class="link"
+              >prototype</a
+            >, we focused on building a unified brand identity for Curo while
+            ensuring adherence to best practices in UI design:
           </p>
-          <p>
-            We began by reviewing our Balsamiq lo-fi prototype and TA feedback
-            to clarify our direction moving forward. Our TA, Audrey, emphasized
-            improving the information hierarchy—specifically, where and when
-            information is presented to the user. She felt that we could enhance
-            the experience by displaying more information upfront, reducing the
-            number of clicks required to access key details. We balanced this
-            feedback with our belief in maintaining a more minimal interface
-            until the user actively seeks additional information through
-            interaction.
-          </p>
-          <p>
-            Ultimately, we retained most of our initial wireframe designs but
-            added a few key details that would be useful for most users,
-            separating them from the more comprehensive information available
-            through card clicks. We also ensured visual and informational
-            consistency across personas, making the interface more intuitive for
-            both fleet managers and depot owners. Additionally, we added several
-            features we felt were essential to the core product—most notably,
-            the messaging page.
-          </p>
+          <ul>
+            <li>
+              As mentioned, we focused on bringing to life our Balsamiq lo-fi
+              prototype along with critique feedback to clarify our direction
+              moving forward. Our critic, Audrey, emphasized improving the
+              information hierarchy, specifically, where and when information is
+              presented to the user.
+            </li>
+            <li>
+              She felt that we could enhance the experience by displaying more
+              information upfront, reducing the number of clicks required to
+              access key details. We balanced this feedback with our belief in
+              maintaining a more minimal interface until the user actively seeks
+              additional information through interaction.
+            </li>
+            <li>
+              Ultimately, we retained most of our initial wireframe designs but
+              added a few key details that would be useful for most users,
+              separating them from the more comprehensive information available
+              through card clicks.
+            </li>
+            <li>
+              We also ensured visual and informational consistency across
+              personas, making the interface more intuitive for both fleet
+              managers and depot owners. Additionally, we added several features
+              we felt were essential to the core product, most notably, the
+              messaging page.
+            </li>
+          </ul>
+
           <h3>Loom Demo Video</h3>
           <div style="position: relative; padding-bottom: 64%; height: 0">
             <iframe
@@ -481,44 +544,56 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                width: 100%;
+                width: 90%;
                 height: 100%;
+                left: 5%;
               "
             ></iframe>
           </div>
+          <br />
           <p>
-            As you can see from the demo and Figma, at the core of our UI is an
+            As visible in the demo and Figma design, at the core of our UI is an
             onboarding flow that diverges based on user persona. We were
             inspired by marketplace platforms like Fiverr, which use a similar
-            approach to create a simple and navigable user experience.
+            approach to create a simple and navigable user experience, described
+            below:
           </p>
-          <p>
-            Depot owners are presented with a clean dashboard as their home
-            screen, featuring clickable cards that reveal more information. From
-            this dashboard, they can accept or reject reservation requests, edit
-            their depot availability, and track depot statistics. They can also
-            message fleet managers and manage communications through a dedicated
-            messaging tab. While we designed both reservations and billing tabs,
-            we chose not to implement those pages, as they would be relatively
-            simple screens—one featuring a calendar view and the other a form.
-          </p>
-          <p>
-            For fleet managers, the UI is much more map-focused. Their homepage
-            displays a map view of open charging locations, encouraging them to
-            make reservations. They also have a tab for tracking their vehicles
-            and current reservations, which mirrors the homepage's map view to
-            maintain visual consistency. Lastly, we designed a messaging page
-            for them as well, enabling negotiations and communication with depot
-            owners.
-          </p>
+          <ul>
+            <li>
+              Depot owners are presented with a clean dashboard as their home
+              screen, featuring clickable cards that reveal more information.
+              From this dashboard, they can accept or reject reservation
+              requests, edit their depot availability, and track depot
+              statistics.
+            </li>
+            <li>
+              Depot owners can also message fleet managers and manage
+              communications through a dedicated messaging tab. While we
+              designed both reservations and billing tabs, we chose not to
+              implement those pages, as they would be relatively simple
+              screens—one featuring a calendar view and the other a form.
+            </li>
+            <li>
+              For fleet managers, the UI is much more map-focused. Their
+              homepage displays a map view of open charging locations,
+              encouraging them to make reservations.
+            </li>
+            <li>
+              Fleet managers also have a tab for tracking their vehicles and
+              current reservations, which mirrors the homepage's map view to
+              maintain visual consistency. Lastly, we designed a messaging page
+              for them as well, enabling negotiations and communication with
+              depot owners.
+            </li>
+          </ul>
         </div>
       </div>
       <div id="testing" class="testing">
         <h2>User Testing</h2>
         <div class="txt-bx">
-          <h3>User Testing Behind The Scenes</h3>
+          <h3>User Testing Approach</h3>
           <p>
-            • Conducting usability tests with real users completing a core,
+            Conducting usability tests with real users completing a core,
             multi-step task on your interactive hi-fi prototype is essential for
             gathering meaningful feedback and evaluating the app's primary
             functionality. Our objective was to have users log in as a depot
@@ -526,212 +601,278 @@
           </p>
 
           <h3>Questions We Asked Our Users</h3>
-          <p>
-            <strong>Before the usability test:</strong><br />
-            • What would you typically expect from a sign-in experience?<br />
-            • As a depot owner, what information and steps would you expect to
-            see when accepting an EV reservation request?
-          </p>
+          <p><b>Before the usability test:</b></p>
+          <ol>
+            <li>What would you typically expect from a sign-in experience?</li>
+            <li>
+              As a depot owner, what information and steps would you expect to
+              see when accepting an EV reservation request?
+            </li>
+          </ol>
 
           <p>
-            <strong>After the usability test:</strong><br />
-            • Was there anything confusing about where to find your reservation
-            requests? Did you have a hard time finding where it was
-            displayed?<br />
-            • Did you feel like you had adequate information on the request
-            details to make a decision on whether to accept or decline?<br />
-            • Was it intuitive to know where to get more information or
-            communicate with the fleet manager that requested?<br />
-            • How confident are you that this reservation will be respected by
-            the other party?<br />
-            • How similar was the experience to what you expected? Do you think
-            the differences were good or bad?
+            <b>After the usability test:</b>
           </p>
-        </div>
 
-        <br />
+          <ol>
+            <li>
+              Was there anything confusing about where to find your reservation
+              requests? Did you have a hard time finding where it was displayed?
+            </li>
+            <li>
+              Did you feel like you had adequate information on the request
+              details to make a decision on whether to accept or decline?
+            </li>
+            <li>
+              Was it intuitive to know where to get more information or
+              communicate with the fleet manager that requested?
+            </li>
+            <li>
+              How confident are you that this reservation will be respected by
+              the other party?
+            </li>
+            <li>
+              How similar was the experience to what you expected? Do you think
+              the differences were good or bad?
+            </li>
+          </ol>
 
-        <div class="txt-bx">
-          <h3>Insights from Zeeshan's User Test</h3>
-          <div style="text-align: center">
-            <iframe
-              src="https://drive.google.com/file/d/17ypYRhbwdSQZt4TXh2e3dT_orgxnZmYn/preview"
-              width="640"
-              height="480"
-            ></iframe>
+          <br />
+
+          <div class="sub-txt-bx">
+            <h3>Insights from Zeeshan's User Test</h3>
+            <div style="text-align: center">
+              <iframe
+                src="https://drive.google.com/file/d/17ypYRhbwdSQZt4TXh2e3dT_orgxnZmYn/preview"
+                width="75%"
+                height="480"
+              ></iframe>
+            </div>
+            <p><b>Observations:</b></p>
+            <ul>
+              <li>
+                In the pre-interview questions, the interviewee shared that they
+                expressed this process to be straightforward like any other
+                sign-in process.
+              </li>
+              <li>
+                The user was able to navigate the interface with relative ease
+                and clicked on the first available request.
+              </li>
+              <li>
+                The reservation request process was seen as straightforward and
+                well-contextualized.
+              </li>
+              <li>
+                There was some uncertainty about the number of available
+                charging slots and the the in-app messaging feature was not
+                immediately discoverable.
+              </li>
+              <li>
+                The user clicked on the first available request and took time to
+                review the request details. The user mentioned that the
+                experience matched expectations and nothing was very confusing
+                during the task.
+              </li>
+            </ul>
+
+            <p><b>Insights:</b></p>
+            <ul>
+              <li>
+                Visibility of critical information (slot availability and
+                reservation impact) is key for confident decision-making.
+              </li>
+              <li>
+                Users expect transparent, easy-to-read summaries of reservation
+                requests.
+              </li>
+              <li>
+                Quick access to communication tools like messaging is highly
+                valued and could be built into the reservation request popup.
+              </li>
+              <li>
+                Clearly showing total available vs. requested slots can reduce
+                cognitive load for the user and make the experience more
+                efficient.
+              </li>
+              <li>
+                New users will benefit from guided cues/prompts to avoid missing
+                essential context before confirming actions.
+              </li>
+            </ul>
           </div>
-          <p><b>Observations:</b></p>
-          <p>
-            • In the pre-interview questions, the interviewee shared that they
-            expressed this process to be straightforward like any other sign-in
-            process.
-          </p>
-          <p>
-            • The user was able to navigate the interface with relative ease and
-            clicked on the first available request.
-          </p>
-          <p>
-            • The reservation request process was seen as straightforward and
-            well-contextualized.
-          </p>
-          <p>
-            • There was some uncertainty about the number of available charging
-            slots and the the in-app messaging feature was not immediately
-            discoverable
-          </p>
-          <p>
-            • The user clicked on the first available request and took time to
-            review the request details.
-          </p>
 
-          <p>
-            • The user mentioned that the experience matched expectations and
-            nothing was very confusing during the task.
-          </p>
-
-          <p><b>Insights:</b></p>
-          <p>
-            • Visibility of critical information (slot availability and
-            reservation impact) is key for confident decision-making.
-          </p>
-          <p>
-            • Users expect transparent, easy-to-read summaries of reservation
-            requests.
-          </p>
-          <p>
-            • Quick access to communication tools like messaging is highly
-            valued and could be built into the reservation request popup.
-          </p>
-          <p>
-            • Clearly showing total available vs. requested slots can reduce
-            cognitive load for the user and make the experience more efficient.
-          </p>
-          <p>
-            • New users will benefit from guided cues/prompts to avoid missing
-            essential context before confirming actions.
-          </p>
-        </div>
-
-        <br />
-
-        <div class="txt-bx">
-          <h3>Insights from Sarah's User Test</h3>
-          <div style="text-align: center">
-            <iframe src="google" width="640" height="480"></iframe>
+          <div class="sub-txt-bx">
+            <h3>Insights from Sarah's User Test</h3>
+            <div style="text-align: center">
+              <iframe
+                src="https://www.loom.com/embed/17fdb9dbf8f945fea7cbc50fe8e8b70e?sid=74837527-c0d6-413d-a602-58fe8a6d27f7"
+                frameborder="0"
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+                width="75%"
+                height="480"
+              ></iframe>
+            </div>
+            <p><b>Observations:</b></p>
+            <ul>
+              <li>
+                In the pre-interview questions, the subject said that she
+                expected a web sign-in process to be simple, fast, and require a
+                username and password. When presented with the dashboard, she
+                seemed to read each of the cards, found the Reservation Request
+                Card, and clicked on the first reservation request.
+              </li>
+              <li>
+                She quickly chose to log in as a depot owner instead of a fleet
+                manager (and instead of signing up). Then, she tried to click
+                the username field and nothing happened, so she pressed the
+                login button as we had hoped.
+              </li>
+              <li>
+                When the window opened, she did not spend much time reading the
+                details of the request, and just pressed accept.
+              </li>
+              <li>
+                In the post-interview questions, she stated that the experience
+                aligned with her expectations, so the actions were not difficult
+                or confusing.
+              </li>
+            </ul>
+            <p><b>Insights:</b></p>
+            <ul>
+              <li>
+                One key point where this user test did not align with a real
+                user experience is that the subject was instructed to accept a
+                reservation request, and did not have any reason not to accept
+                it.
+              </li>
+              <li>
+                So, my subject shared that she did not bother to read a lot of
+                the reservation request information, since she knew the task was
+                to accept the reservation.
+              </li>
+              <li>
+                While this limited our ability to gauge whether adequate
+                information was shared on the reservation request page, it did
+                affirm for us that this task was easy and intuitive to complete.
+              </li>
+            </ul>
           </div>
-          <p>• placeholder</p>
-          <p>• placeholder</p>
-          <p>• placeholder</p>
-          <p>• placeholder</p>
-        </div>
 
-        <br />
+          <div class="sub-txt-bx">
+            <h3>Insights from Priyam's User Test</h3>
+            <div style="text-align: center">
+              <iframe
+                src="https://www.loom.com/embed/0d9df309f1f641dc96044be0cb168bca?sid=af04b5e8-99ea-481b-a4bb-2b762cd42ed9"
+                frameborder="0"
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+                width="75%"
+                height="480"
+              ></iframe>
+            </div>
+            <p><b>Observations:</b></p>
+            <ul>
+              <li>
+                In the pre-interview questions, the interviewee shared that he
+                expected a sign-in process to be straightforward, requiring only
+                a username and password.
+              </li>
+              <li>
+                He immediately selected the option to log in as a depot
+                owner—skipping the fleet manager option and the sign-up flow.
+                Upon trying to click into the username field with no response,
+                he instinctively clicked the login button, which aligned with
+                the intended flow for our UI.
+              </li>
+              <li>
+                Once on the dashboard, he scanned and read out each of the cards
+                and information and was quickly able to locate the Reservation
+                Request Card.
+              </li>
+              <li>
+                He clicked on the first available request. However, he did not
+                spend much time reviewing the detailed information in the card
+                and instead clicked "Accept" almost immediately.
+              </li>
+              <li>
+                After the usability test, when asked further questions, he
+                mentioned that the experience matched his expectations and that
+                he didn't encounter anything confusing or difficult during the
+                task.
+              </li>
+            </ul>
 
-        <div class="txt-bx">
-          <h3>Insights from Priyam's User Test</h3>
-          <div style="text-align: center">
-            <iframe
-              src="https://www.loom.com/embed/0d9df309f1f641dc96044be0cb168bca?sid=af04b5e8-99ea-481b-a4bb-2b762cd42ed9"
-              frameborder="0"
-              webkitallowfullscreen
-              mozallowfullscreen
-              allowfullscreen
-              width="640"
-              height="480"
-            ></iframe>
+            <p><b>Insights:</b></p>
+            <ul>
+              <li>
+                The main limitation of this user test was that the subject was
+                instructed to accept a reservation request.
+              </li>
+              <li>
+                Because of this, he did not feel the need to thoroughly review
+                the reservation's content, knowing that the task had a
+                pre-determined flow.
+              </li>
+              <li>
+                However, this usability interview confirmed that the flow to
+                locate and accept a reservation was intuitive and easy to
+                follow, indicating that the basic functionality was accessible
+                and understandable to first-time users.
+              </li>
+            </ul>
           </div>
-          <p><b>Observations:</b></p>
-          <p>
-            • In the pre-interview questions, the interviewee shared that he
-            expected a sign-in process to be straightforward, requiring only a
-            username and password.
-          </p>
-          <p>
-            • He immediately selected the option to log in as a depot
-            owner—skipping the fleet manager option and the sign-up flow.
-          </p>
-          <p>
-            • Upon trying to click into the username field with no response, he
-            instinctively clicked the login button, which aligned with the
-            intended flow for our UI.
-          </p>
-          <p>
-            • Once on the dashboard, he scanned and read out each of the cards
-            and information and was quickly able to locate the Reservation
-            Request Card.
-          </p>
-          <p>• He clicked on the first available request.</p>
-          <p>
-            • However, he did not spend much time reviewing the detailed
-            information in the card and instead clicked "Accept" almost
-            immediately.
-          </p>
-          <p>
-            • After the usability test, when asked further questions, he
-            mentioned that the experience matched his expectations and that he
-            didn't encounter anything confusing or difficult during the task.
-          </p>
 
-          <p><b>Insights:</b></p>
-          <p>
-            • The main limitation of this user test was that the subject was
-            instructed to accept a reservation request.
-          </p>
-          <p>
-            • Because of this, he did not feel the need to thoroughly review the
-            reservation's content, knowing that the task had a pre-determined
-            flow.
-          </p>
-          <p>
-            • However, this usability interview confirmed that the flow to
-            locate and accept a reservation was intuitive and easy to follow,
-            indicating that the basic functionality was accessible and
-            understandable to first-time users.
-          </p>
-        </div>
-
-        <br />
-
-        <div class="txt-bx">
-          <h3>Insights from Ethan's User Test</h3>
-          <div style="text-align: center">
-            <iframe
-              src="https://drive.google.com/file/d/10h_aTez55ZbCWU0lJy7zemQdCD1Sj9yw/preview"
-              width="640"
-              height="480"
-              allow="autoplay"
-            ></iframe>
+          <div class="sub-txt-bx">
+            <h3>Insights from Ethan's User Test</h3>
+            <div style="text-align: center">
+              <iframe
+                src="https://drive.google.com/file/d/10h_aTez55ZbCWU0lJy7zemQdCD1Sj9yw/preview"
+                width="75%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
+            <p><b>Observations:</b></p>
+            <ul>
+              <li>
+                The user was able to find the reservation request card and
+                accept the reservation, but did not immediately see the
+                reservations part of the dashboard.
+              </li>
+              <li>
+                The user expected more information about the reservation request
+                in the pre-interview than they were able to find in the actual
+                product.
+              </li>
+              <li>
+                They user scrutinized the reservatio details to ensure that they
+                fully understood the nature of the reservation before accepting
+                it.
+              </li>
+            </ul>
+            <p><b>Insights:</b></p>
+            <ul>
+              <li>
+                Some depot owners might need more infromation or context about
+                the reservation before accepting it. We should implement direct
+                messaging from the reservation request page.
+              </li>
+              <li>
+                If we want to optimize for number of reservations accepted, we
+                should make the reservation request card more prominent on the
+                dashboard.
+              </li>
+              <li>
+                Users could be unsure about their decision; we should allow them
+                to edit their response or cancel the reservation after accepting
+                it.
+              </li>
+            </ul>
           </div>
-          <p><b>Observations:</b></p>
-          <p>
-            • The user was able to find the reservation request card and accept
-            the reservation, but did not immediately see the reservations part
-            of the dashboard.
-          </p>
-          <p>
-            • The user expected more information about the reservation request
-            in the pre-interview than they were able to find in the actual
-            product.
-          </p>
-          <p>
-            • They user scrutinized the reservatio details to ensure that they
-            fully understood the nature of the reservation before accepting it.
-          </p>
-          <p><b>Insights:</b></p>
-          <p>
-            • Some depot owners might need more infromation or context about the
-            reservation before accepting it. We should implement direct
-            messaging from the reservation request page.
-          </p>
-          <p>
-            • If we want to optimize for number of reservations accepted, we
-            should make the reservation request card more prominent on the
-            dashboard.
-          </p>
-          <p>
-            • Users could be unsure about their decision; we should allow them
-            to edit their response or cancel the reservation after accepting it.
-          </p>
         </div>
 
         <br />
@@ -741,53 +882,76 @@
         <div class="txt-bx">
           <p>
             Throughout working on this case study, we each gained skills and
-            experiences important to interaction designers, enumerated below.
+            experiences important to interaction designers, listed below.
           </p>
-          <p>
-            • Sarah: First, I significantly improved my prototyping skills in
-            Figma. More broadly, I learned how important it is to be specific
-            with prompts when performing user tests. Not only do you need to
-            present the subject with the task, you also need to ask them to
-            assume the mindset of someone that they're not. In this case, if I
-            had told my subject to be a depot owner who needs to decide whether
-            or not to accept the reservation request (instead of just telling
-            them to accept it), I could have gauged whether there was sufficient
-            information rather than just the fact that the task was possible.
-          </p>
-          <p>
-            • Priyam: Going from hand-drawn sketches to lo-fi and then
-            eventually to hi-fi Figma designs was incredible insightful. The
-            sketching process allowed me to think freely about how to structure
-            information on the page and discover the ideal user experience for
-            both stakeholders. Furthermore, the ability to discuss my thought
-            process with my team and learning about their perspective allowed
-            for a thoughtful feedback loop. Working in a team also emulated a
-            real-world task where you work with other team members to go from
-            ideation to an actual design/product.
-          </p>
-          <p>
-            • Ethan: This project taught me a lot about staying agile in the
-            design process. Rather than dive head-first into a solution, taking
-            time breaking the problem down into stakeholders and their needs
-            gave us a solid foundation to design features without feeling like
-            we weren't comprehensive. In addition, I learned important Figma and
-            Balsamiq prototyping techniques, including making component states
-            in Figma and using multi-page prototyping features. This experience
-            also made me more comfortable working with a team on product and
-            design projects, since I learned how to communicate and compromise
-            in design direction to ensure we have a product that we're proud of.
-          </p>
-          <p>
-            • Zeeshan: This project really taught me the value of prototyping
-            and user testing. From our initial sketches to the hi-fi prototypes,
-            there has been a lot of revision and improvement. It couldn't have
-            been possible without the discussions with the group and TAs which
-            were really crucial to designing a platform that successfully
-            addresses the users' needs. The project also taught me a lot about
-            Figma as well as creating interesting animations! Overall, I learned
-            how important it is to be flexible and constantly improve our
-            product based on feedback.
-          </p>
+          <p><b>Sarah:</b></p>
+          <ul>
+            <li>
+              First, I significantly improved my prototyping skills in Figma.
+              More broadly, I learned how important it is to be specific with
+              prompts when performing user tests. Not only do you need to
+              present the subject with the task, you also need to ask them to
+              assume the mindset of someone that they're not.
+            </li>
+            <li>
+              In this case, if I had told my subject to be a depot owner who
+              needs to decide whether or not to accept the reservation request
+              (instead of just telling them to accept it), I could have gauged
+              whether there was sufficient information rather than just the fact
+              that the task was possible.
+            </li>
+          </ul>
+          <p><b>Priyam:</b></p>
+          <ul>
+            <li>
+              Going from hand-drawn sketches to lo-fi and then eventually to
+              hi-fi Figma designs was incredible insightful. The sketching
+              process allowed me to think freely about how to structure
+              information on the page and discover the ideal user experience for
+              both stakeholders.
+            </li>
+            <li>
+              Also, the ability to discuss my thought process with my team and
+              learning about their perspective allowed for a thoughtful feedback
+              loop. Working in a team also emulated a real-world task where you
+              work with other team members to go from ideation to an actual
+              design/product.
+            </li>
+          </ul>
+          <p><b>Ethan:</b></p>
+          <ul>
+            <li>
+              This project taught me a lot about staying agile in the design
+              process. Rather than dive head-first into a solution, taking time
+              breaking the problem down into stakeholders and their needs gave
+              us a solid foundation to design features without feeling like we
+              weren't comprehensive.
+            </li>
+            <li>
+              I also learned important Figma and Balsamiq prototyping
+              techniques, including making component states in Figma and using
+              multi-page prototyping features. This experience also made me more
+              comfortable working with a team on product and design projects,
+              since I learned how to communicate and compromise in design
+              direction to ensure we have a product that we're proud of.
+            </li>
+          </ul>
+          <p><b>Zeeshan:</b></p>
+          <ul>
+            <li>
+              This project taught me the value of prototyping and user testing.
+              From our initial sketches to the hi-fi prototypes, there has been
+              a lot of revision and improvement. It couldn't have been possible
+              without the discussions with the group and our critic Audrey,
+              which were really crucial to designing a platform that
+              successfully addresses the users' needs.
+            </li>
+            <li>
+              The project also taught me a lot about Figma as well as creating
+              interesting animations! Overall, I learned how important it is to
+              be flexible and constantly improve our product based on feedback.
+            </li>
+          </ul>
         </div>
         <br /><br />
         <p class="reachout">
