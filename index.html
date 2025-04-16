@@ -412,11 +412,12 @@
           <h3>Figma</h3>
           <div style="text-align: center">
             <iframe
-            style="border: none;"
-            width="800"
-            height="450"
-            src="https://embed.figma.com/proto/CIIizX9Wve7DCsOqA9qCHL/CS1300--Curo-Design?page-id=0%3A1&node-id=9-2&p=f&scaling=scale-down&starting-point-node-id=9%3A2&embed-host=share"
-            allowfullscreen>
+              style="border: none"
+              width="800"
+              height="450"
+              src="https://embed.figma.com/proto/CIIizX9Wve7DCsOqA9qCHL/CS1300--Curo-Design?page-id=0%3A1&node-id=9-2&p=f&scaling=scale-down&starting-point-node-id=9%3A2&embed-host=share"
+              allowfullscreen
+            >
             </iframe>
           </div>
 
@@ -447,13 +448,7 @@
             the messaging page.
           </p>
           <h3>Loom Demo Video</h3>
-          <div
-            style="
-              position: relative;
-              padding-bottom: 64%;
-              height: 0;
-            "
-          >
+          <div style="position: relative; padding-bottom: 64%; height: 0">
             <iframe
               src="https://www.loom.com/embed/71ba88130f744e20b1ad41ba5cc52296?sid=baca8cab-2760-403a-ab63-54c7429dea67"
               frameborder="0"
@@ -508,8 +503,21 @@
             owner and complete the core task of accepting a reservation request.
           </p>
 
-          <h3>Questions We Asked Our User</h3>
-          <p>• Add text here.</p>
+          <h3>Questions We Asked Our Users</h3>
+          <p>
+            <strong>Before the usability test:</strong><br>
+            • What would you typically expect from a sign-in experience?<br>
+            • As a depot owner, what information and steps would you expect to see when accepting an EV reservation request?
+          </p>
+         
+          <p>
+            <strong>After the usability test:</strong><br>
+            • Was there anything confusing about where to find your reservation requests? Did you have a hard time finding where it was displayed?<br>
+            • Did you feel like you had adequate information on the request details to make a decision on whether to accept or decline?<br>
+            • Was it intuitive to know where to get more information or communicate with the fleet manager that requested?<br>
+            • How confident are you that this reservation will be respected by the other party?<br>
+            • How similar was the experience to what you expected? Do you think the differences were good or bad?
+          </p>
         </div>
 
         <br />
@@ -523,23 +531,55 @@
               height="480"
             ></iframe>
           </div>
+          <p><b>Observations:</b></p>
           <p>
-            • The user found the interface intuitive and could locate key
-            information like contact details and reservation requests with ease.
+            • In the pre-interview questions, the interviewee shared that they
+            expressed this process to be straightforward like any other sign-in
+            process.
           </p>
           <p>
-            • Critical data, such as available charging slots and requested slot
-            counts, were not clearly presented, requiring extra effort to
-            assess.
+            • The user was able to navigate the interface with relative ease and
+            clicked on the first available request.
           </p>
           <p>
-            • While the phone number was easy to find, the in-app messaging
-            feature lacked visibility and could be more discoverable.
+            • The reservation request process was seen as straightforward and
+            well-contextualized.
           </p>
           <p>
-            • Users would benefit from clearer summaries, better communication
-            access, and guided cues—especially during their first use—to
-            confidently make decisions.
+            • There was some uncertainty about the number of available charging
+            slots and the the in-app messaging feature was not immediately
+            discoverable
+          </p>
+          <p>
+            • The user clicked on the first available request and took time to
+            review the request details.
+          </p>
+
+          <p>
+            • The user mentioned that the experience matched expectations and
+            nothing was very confusing during the task.
+          </p>
+
+          <p><b>Insights:</b></p>
+          <p>
+            • Visibility of critical information (slot availability and
+            reservation impact) is key for confident decision-making.
+          </p>
+          <p>
+            • Users expect transparent, easy-to-read summaries of reservation
+            requests.
+          </p>
+          <p>
+            • Quick access to communication tools like messaging is highly
+            valued and could be built into the reservation request popup.
+          </p>
+          <p>
+            • Clearly showing total available vs. requested slots can reduce
+            cognitive load for the user and make the experience more efficient.
+          </p>
+          <p>
+            • New users will benefit from guided cues/prompts to avoid
+            missing essential context before confirming actions.
           </p>
         </div>
 
@@ -626,16 +666,43 @@
         <div class="txt-bx">
           <h3>Insights from Ethan's User Test</h3>
           <div style="text-align: center">
-            <iframe src="https://drive.google.com/file/d/10h_aTez55ZbCWU0lJy7zemQdCD1Sj9yw/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe
+              src="https://drive.google.com/file/d/10h_aTez55ZbCWU0lJy7zemQdCD1Sj9yw/preview"
+              width="640"
+              height="480"
+              allow="autoplay"
+            ></iframe>
           </div>
           <p><b>Observations:</b></p>
-          <p>• The user was able to find the reservation request card and accept the reservation, but did not immediately see the reservations part of the dashboard.</p>
-          <p>• The user expected more information about the reservation request in the pre-interview than they were able to find in the actual product.</p>
-          <p>• They user scrutinized the reservatio details to ensure that they fully understood the nature of the reservation before accepting it.</p>
+          <p>
+            • The user was able to find the reservation request card and accept
+            the reservation, but did not immediately see the reservations part
+            of the dashboard.
+          </p>
+          <p>
+            • The user expected more information about the reservation request
+            in the pre-interview than they were able to find in the actual
+            product.
+          </p>
+          <p>
+            • They user scrutinized the reservatio details to ensure that they
+            fully understood the nature of the reservation before accepting it.
+          </p>
           <p><b>Insights:</b></p>
-          <p>• Some depot owners might need more infromation or context about the reservation before accepting it. We should implement direct messaging from the reservation request page.</p>
-          <p>• If we want to optimize for number of reservations accepted, we should make the reservation request card more prominent on the dashboard.</p>
-          <p>• Users could be unsure about their decision; we should allow them to edit their response or cancel the reservation after accepting it.</p>
+          <p>
+            • Some depot owners might need more infromation or context about the
+            reservation before accepting it. We should implement direct
+            messaging from the reservation request page.
+          </p>
+          <p>
+            • If we want to optimize for number of reservations accepted, we
+            should make the reservation request card more prominent on the
+            dashboard.
+          </p>
+          <p>
+            • Users could be unsure about their decision; we should allow them
+            to edit their response or cancel the reservation after accepting it.
+          </p>
         </div>
 
         <br />
